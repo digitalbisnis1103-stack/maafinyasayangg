@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maafin Sayangg</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="bg-blur bg1"></div>
+<div class="bg-blur bg2"></div>
+
+<div id="floating-hearts"></div>
+
+<div class="sparkles"></div>
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<audio id="bgm" loop>
+
+<source src="musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =========================
+PAGE 1
+OPENING
+========================= -->
+
+<section class="page active" id="page1">
+
+<div class="welcome">
+
+<img src="icon1.png" class="lotso lotso-big">
+
+<h1>
+
+Hy LOML❤️
+
+</h1>
+
+<p>
+
+Esy tau akhir-akhir ini esy banyak bikin hati kecil kakak sedih. Esy cuma minta waktu sebentar buat baca ini.
+
+</p>
+
+<button id="startBtn">
+
+Buka Surat 💌
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 2
+ENVELOPE
+========================= -->
+
+<section class="page" id="page2">
+
+    <div class="heart-meter">
+
+        <div class="meter-text">
+            <span>Hati Kakak</span>
+            <span id="meterValue">0%</span>
+        </div>
+
+        <div class="meter">
+            <div class="meter-fill" id="meterFill"></div>
+        </div>
+
+    </div>
+
+    <div class="envelope-area">
+
+        <img
+            src="envelope.png"
+            alt="Envelope"
+            id="envelope"
+            class="envelope-img"
+        >
+
+    </div>
+
+</section>
+
+<!-- =========================
+PAGE 3
+LOTSO
+========================= -->
+
+<section class="page" id="page3">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kakak
+
+<span>
+
+25%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter25"></div>
+
+</div>
+
+</div>
+
+<img src="icon2.png" class="lotso">
+
+<p>
+
+Esy sadar mungkin esy terlalu sering bikin kakak kecewa. Esy ga akan membela diri. Esy cuma mau ngaku kalau esy memang salah.
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 4
+LOTSO
+========================= -->
+
+<section class="page" id="page4">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kakak
+
+<span>
+
+50%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter50"></div>
+
+</div>
+
+</div>
+
+<img src="icon3.png" class="lotso">
+
+
+<p>
+
+Esy tahu kata maaf ga langsung menghilangkan rasa kecewa. Tapi esy benar-benar ingin berubah.
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 5
+LETTER
+========================= -->
+
+<section class="page" id="page5">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kakak
+
+<span>
+
+75%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter75"></div>
+
+</div>
+
+</div>
+
+<div class="letter">
+
+<div class="letter-scroll">
+
+<p>
+
+Sayangg...
+
+</p>
+
+<p>
+Esy benar-benar minta maaf. Maaf karena sering membuat kakak marah kesel emosi. Maaf karena sering mengulang kesalahan yang sama. Maaf karena belum bisa menjadi tempat ternyaman buat kakak.
+</p>
+
+<p>
+Esy ga janji bakal langsung sempurna. Tapi esy janji bakal terus belajar. Belajar supaya ga mengulang kesalahan kesalahan yang sama. Belajar jadi pasangan yang baik.
+</p>
+
+<p>
+Esy cuma berharap...Semoga kakak masih mau kasih esy kesempatan.
+</p>
+
+<p>
+Esy juga ga mau janji yang berlebihan. Esy cuma berharap masih dikasih kesempatan buat nunjukin kalau esy bisa lebih baik dari sebelumnya.
+</p>
+
+<p>
+Makasih yaa kak selama ini udah sabar sama esy. Maaf kalau esy sering bikin kakak kesel.
+</p>
+
+<p>
+Esy sayang kakak. Selalu ❤️
+</p>
+
+</div>
+
+<button class="next">
+
+Esy Janji Berubah 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 6
+ENDING
+========================= -->
+
+<section class="page" id="page6">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kakak
+
+<span>
+
+100%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter100"></div>
+
+</div>
+
+</div>
+
+<img src="icon4.png" class="lotso happy">
+
+<p>
+
+Terima kasih sudah membaca semuanya. Semoga setelah ini kita bisa sama-sama memperbaiki semuanya.❤️
+
+</p>
+
+<div class="btn-group">
+
+<button id="hugBtn">
+
+Peluk Virtual🫂
+
+</button>
+
+<button id="restartBtn">
+
+Replay💗
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
